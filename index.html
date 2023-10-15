@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>WEBSITE TESTING </title>
+  
+  <!-- HTML -->
+  
+
+  <link rel="website icon" href="MAJJD.jpeg">
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="main">
+      <p class="home">HOME</p>
+      <div class="menu">
+      <a href="">About us</a>
+      <a href="">Contuct</a>
+      </div>
+    </div>
+    <form action="MAJJD.jpeg">
+      <h1>LOG IN FORM</h1>
+    <label for="fname"> First name</label><br>
+    <input type="text" required><br>
+    <label for="laname">Last name </label><br>
+    <input type="text" required>
+    <label for="email">Email Address</label>
+    <input type="email" required>
+    <label for="age">Age</label>
+    <input type="number" required>
+    <button type="submit"> Submit</button>
+    </form>
+    <footer>
+      <img src="jid.jpeg">
+      <a href="https://www.facebook.com/profile.php?id=100093054180879">CREATED BY: MAJID</a>
+      <a href="https://www.facebook.com/jomarie.lara.45">JOMARIE LARA</a>
+      <a href="https://www.facebook.com/markzkie.catarman">MARCELO CATARMAN</a>
+      <a href="https://www.facebook.com/profile.php?id=100066426368875">MOHAMER DIALODIN</a>
+      <a href="https://www.facebook.com/dennis.libradilla.12">DENNIS LIBRIDILLA</a>
+      
+    </footer>
+    <style>
+     
+      input{
+        padding: 12px 0;
+        margin: 8px 0;
+        width: 100%;
+        border-radius: 1rem;
+        border: none;
+      }
+      h1{
+        color: skyblue;
+        text-align: center;
+      }
+      form{
+        
+        padding: 12px;
+        border-radius: 1rem;
+        border: solid black 2px;
+      }
+      button{
+        background: none;
+        padding: 12px 0;
+        width: 200px;
+        border-radius:1rem ;
+        border:skyblue solid 2px;
+        color: white;
+      }
+      body{
+        background: linear-gradient(30deg ,#199,#390,#123);
+        background-size: cover;
+        background-repeat:no-repeat ;
+        min-height: 100vh;
+        flex-direction: column;
+        display: flex;
+        font-family: Arial,Sans-Serif;
+      }
+      label{
+        color:white;
+      }
+    footer{
+      height: 200px;
+      background: black;
+    }
+    html,body{
+      margin: 0;
+      padding:0;
+    }
+    a{
+      display: flex;
+      margin: 10px;
+      color: #499;
+      text-decoration: none;
+    }
+    img{
+      float: left;
+      height: 200px;
+      width: 200px;
+      border-radius: 2rem;
+      filter: contrast (200%);
+    }
+    .main{
+      display: inline-block;
+      position: relative;
+    }
+    .home{
+      background: skyblue;
+      padding: 12px;
+      width: 100px;
+      text-align: center;
+    }
+    .menu{
+      position: absolute;
+      width: 100px;
+      display: none;
+      background: black;
+    }
+    .main:hover > .menu{
+      display: inline-block;
+    }
+    .menu > a {
+   
+      color: skyblue;
+      width: 100%;
+     display: flex;
+    }
+    p{
+      margin-left:12px ;
+    }
+    </style>
+  </body>
